@@ -3,15 +3,29 @@
 ## Comandos básicos
 
 - Windows
-  - cd
-  - dir
-  - mkdir
-  - del/rmdir  
+  - cd -> mudar de pastas
+  - dir -> listar as pastas
+  - mkdir -> criar pastas/arquivos
+  - del/rmdir  -> deletar pastas/arquivos
 
-### Mudar de pastas
+## Objetos internos do git
 
-### Listar as pastas
+- Blob
+  - Contém metadados do git, que são objetos, tamanho do arquivo, entre outros.
+  - Armazena o identificador do arquivo.
 
-### Criar pastas/arquivos
+- Tree
+  - Armazena os blobs,
+  - Monta a estrutura de todos os arquivos
+  - Podem apontar pra blobs ou outras trees
 
-### Deletar pastas/arquivos
+- Commit
+  - Dá significado e sentido para
+  - Armazena as trees, o autor, a mensagem e o horario de qdo o commit foi criado.
+
+## Na pratica
+
+- git init
+- git add
+- git commit
+
