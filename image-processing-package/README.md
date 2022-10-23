@@ -1,17 +1,19 @@
 # image_processing
 
-Description. 
+## Description
+
 The package image_processing is used to:
-	Processing:
-		- Histogram matching
-		- Structural similarity
-		- Resize image
-	Utils:
-		- Read image
-		- Save image
-		- Plot image
-		- Plor result
-		- Plot histogram
+
+- Processing:
+  - Histogram matching
+  - Structural similarity
+  - Resize image
+- Utils:
+  - Read image
+  - Save image
+  - Plot image
+  - Plor result
+  - Plot histogram
 
 ## Installation
 
@@ -47,8 +49,32 @@ python -m pip install --user setuptools
 python setup.py sdist bdist_wheel
 ```
 
+### Command to publish  in the Test Pypi
+
+```shell
+python -m twine upload --repository-url https://test.pypi.org/legacy/ dist/*
+```
+
+```shell
+pip install --index-url https://test.pypi.org/simple/image-processing-to-cassiana==0.01
+```
+
+### Command to publish in the Pypi
+
+```shell
+python -m twine upload --repository-url https://upload.pypi.org/legacy/ dist/*
+```
+
+### Command to install the package
+
+```shell
+pip install image-processing-to-cassiana==0.0.1
+```
+
 ## Author
-Cassiana
+
+Cassiana Gabriela Lima Barreto
 
 ## License
+
 [MIT](https://choosealicense.com/licenses/mit/)
