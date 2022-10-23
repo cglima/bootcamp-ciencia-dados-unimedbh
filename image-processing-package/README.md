@@ -21,6 +21,32 @@ Use the package manager [pip](https://pip.pypa.io/en/stable/) to install image_p
 pip install image_processing
 ```
 
+### Installation commands for creating distributions
+
+- Updating the pip
+
+```shell
+python -m pip install --upgrade pip
+```
+
+- Installing the twine
+
+```shell
+python -m pip install --user twine
+```
+
+- Installing the setuptools
+
+```shell
+python -m pip install --user setuptools
+```
+
+- Creating the distributions sdist and wheel (binary distribution)
+
+```shell
+python setup.py sdist bdist_wheel
+```
+
 ## Author
 Cassiana
 
