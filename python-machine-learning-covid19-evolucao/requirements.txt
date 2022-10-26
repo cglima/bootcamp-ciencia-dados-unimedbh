@@ -4,3 +4,4 @@ datetime
 plotly
 statsmodels
 matplotlib
+pmdarima
