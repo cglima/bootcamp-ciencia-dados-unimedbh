@@ -8,7 +8,7 @@ with open("requirements.txt") as f:
 
 setup(
     name="image_processing_to_cassiana",
-    version="0.0.1",
+    version="0.0.2",
     author="cassiana",
     description="image Processing Package using Skimage",
     long_description=page_description,
