@@ -16,7 +16,7 @@
    - É muito importante que o ambiente virtual seja salvo em uma pasta com um nome DIFERENTE de .env. Uma sugestão é .venv.
 
     ```shell
-    conda create  -p .venv python
+    conda create -p .venv python=3.8.1
     ```
 
     - Ativando o ambiente virtual.
