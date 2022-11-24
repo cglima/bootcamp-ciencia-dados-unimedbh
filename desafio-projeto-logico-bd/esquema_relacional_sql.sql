@@ -13,6 +13,8 @@ create table clients(
     constraint unique_cpf_client unique(CPF)
 );
 
+ALTER TABLE clients auto_increment=1;
+
 desc clients;
 
 -- criar tabela produto
